@@ -22,7 +22,7 @@ This is **Cyber Notes v0.1 — Juniors Edition: Advanced**, built primarily arou
 
 The goal is not to reproduce courses or collect isolated answers. The vault is designed to transform practical penetration-testing training into a structured, reusable knowledge base covering methodologies, techniques, vulnerabilities, tools, and operational concepts.
 
-</td> <td width="28%" align="center" valign="middle"> <img src="./assets/terminal.gif" width="100%" alt="Terminal"> </td> </tr> </table>
+</td> </tr> </table>
 
 ---
 
@@ -65,8 +65,6 @@ The vault has a deliberate **offensive-security focus**. Defensive concepts may 
 
 # WHAT'S INSIDE
 
-<table> <tr> <td width="50%" valign="top">
-
 ### PENTESTING CORE
 
 `01-Pentesting`
@@ -103,11 +101,7 @@ Password attacks, password cracking, hashes, credential discovery, credential re
 
 Active Directory from an offensive perspective, including enumeration, LDAP, Kerberos, NTLM, SMB, GPOs, and domain privilege escalation.
 
-</td> <td width="50%" align="center" valign="middle"> <img src="./assets/recon.gif" width="100%" alt="Reconnaissance"> </td> </tr> </table>
-
 ---
-
-<table> <tr> <td width="50%" align="center" valign="middle"> <img src="./assets/network.gif" width="100%" alt="Network Pentesting"> </td> <td width="50%" valign="top">
 
 # RECONNAISSANCE
 
@@ -127,11 +121,7 @@ The section covers port scanning, service enumeration, banner grabbing, and prot
 
 The objective is to move from an unknown target to an accurate understanding of its reachable services and potential attack surface.
 
-</td> </tr> </table>
-
 ---
-
-<table> <tr> <td width="50%" valign="top">
 
 # WEB PENTESTING
 
@@ -150,12 +140,6 @@ Exploitation is the process of turning a discovered vulnerability into meaningfu
 This section covers vulnerability research, CVEs, public exploit databases, proof-of-concepts, payloads, shells, reverse shells, bind shells, and introductory exploit-development concepts.
 
 The objective is to understand the relationship between a vulnerability, its exploitation conditions, the payload used, and the resulting execution context.
-
-</td> <td width="50%" align="center" valign="middle"> <img src="./assets/web.gif" width="100%" alt="Web Pentesting">
-
-<br><br>
-
-<img src="./assets/exploit.gif" width="100%" alt="Exploitation"> </td> </tr> </table>
 
 ---
 
