@@ -22,7 +22,7 @@ This is **Cyber Notes v0.1 — Juniors Edition: Advanced**, built primarily arou
 
 The goal is not to reproduce courses or collect isolated answers. The vault is designed to transform practical penetration-testing training into a structured, reusable knowledge base covering methodologies, techniques, vulnerabilities, tools, and operational concepts.
 
-</td> <td width="28%" align="center" valign="middle"> <img src="./assets/terminal.gif" width="170px" alt="Terminal"> </td> </tr> </table>
+</td> <td width="28%" align="center" valign="middle"> <img src="./assets/terminal.gif" width="100%" alt="Terminal"> </td> </tr> </table>
 
 ---
 
@@ -37,8 +37,6 @@ The focus is on understanding how a penetration tester approaches a target: iden
 The objective is not simply to learn how to operate offensive-security tools. Each technique should be understood in terms of **why it works, what conditions make it possible, and how it fits into a broader penetration-testing methodology**.
 
 ---
-
-<div align="center"> <img src="./assets/skull.gif" width="120px" alt="Skull"> </div>
 
 # SECURITY FOCUS
 
@@ -225,8 +223,6 @@ VULNHUB                   Community-driven vulnerable machines
 ```
 
 ---
-
-<div align="center"> <img src="./assets/terminal.gif" width="120px" alt="Terminal"> </div>
 
 # THE PENTESTING WORKFLOW
 
@@ -453,7 +449,7 @@ Technical information may become outdated or contain mistakes. Important details
 
 <div align="center">
 
-<img src="./assets/terminal.gif" width="80px" alt="Cyber Notes">
+<img src="./assets/terminal.gif" width="100px" alt="Cyber Notes">
 
 <br>
 
