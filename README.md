@@ -1,17 +1,8 @@
-<div align="center">
-
-<img src="./assets/banner.png" alt="Cyber Notes — Juniors Edition Advanced" width="100%">
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=15&duration=2800&pause=900&color=9DFFB3&center=true&vCenter=true&width=760&lines=PENETRATION+TESTING;RECONNAISSANCE+%2F+ENUMERATION+%2F+EXPLOITATION;WEB+%2F+NETWORK+%2F+ACTIVE+DIRECTORY;LEARN+%2F+ENUMERATE+%2F+EXPLOIT" alt="Typing animation">
+<div align="center"> <img src="./assets/banner.png" alt="Cyber Notes — Juniors Edition Advanced" width="100%"> <br> <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=15&duration=2800&pause=900&color=9DFFB3&center=true&vCenter=true&width=760&lines=PENETRATION+TESTING;RECONNAISSANCE+%2F+ENUMERATION+%2F+EXPLOITATION;WEB+%2F+NETWORK+%2F+ACTIVE+DIRECTORY;LEARN+%2F+ENUMERATE+%2F+EXPLOIT" alt="Typing animation">
 
 <br><br>
 
-![Status](https://img.shields.io/badge/STATUS-IN%20PROGRESS-9DFFB3?style=for-the-badge&labelColor=0A0D0B)
-![Edition](https://img.shields.io/badge/EDITION-JUNIORS%20ADVANCED-9DFFB3?style=for-the-badge&labelColor=0A0D0B)
-![Version](https://img.shields.io/badge/VERSION-0.1-9DFFB3?style=for-the-badge&labelColor=0A0D0B)
-![Obsidian](https://img.shields.io/badge/BUILT_FOR-OBSIDIAN-9DFFB3?style=for-the-badge&labelColor=0A0D0B)
+![Status](https://img.shields.io/badge/STATUS-IN%20PROGRESS-9DFFB3?style=for-the-badge&labelColor=0A0D0B) ![Edition](https://img.shields.io/badge/EDITION-JUNIORS%20ADVANCED-9DFFB3?style=for-the-badge&labelColor=0A0D0B) ![Version](https://img.shields.io/badge/VERSION-0.1-9DFFB3?style=for-the-badge&labelColor=0A0D0B) ![Obsidian](https://img.shields.io/badge/BUILT_FOR-OBSIDIAN-9DFFB3?style=for-the-badge&labelColor=0A0D0B)
 
 <br>
 
@@ -21,41 +12,33 @@
 
 ---
 
-<table>
-<tr>
-<td width="72%" valign="top">
+<table> <tr> <td width="72%" valign="top">
 
 # ABOUT
 
-**Cyber Notes — Juniors Edition: Advanced** is a personal penetration-testing knowledge vault created by **Rodrigo Tripa** for developing practical offensive-security skills beyond the cybersecurity fundamentals established in the previous edition.
+**Cyber Notes — Juniors Edition: Advanced** is a personal penetration-testing knowledge vault created by **Rodrigo Tripa** to develop practical offensive-security skills beyond the cybersecurity fundamentals established in the previous edition.
 
 This is **Cyber Notes v0.1 — Juniors Edition: Advanced**, built primarily around knowledge acquired through **TryHackMe**, especially the **Jr Penetration Tester** learning path, while also incorporating material from official documentation, books, technical resources, and personal research.
 
 The goal is not to reproduce courses or collect isolated answers. The vault is designed to transform practical penetration-testing training into a structured, reusable knowledge base covering methodologies, techniques, vulnerabilities, tools, and operational concepts.
 
-</td>
-
-<td width="28%" align="center" valign="middle">
-
-<img src="./assets/terminal.gif" width="170px" alt="Terminal">
-
-</td>
-</tr>
-</table>
+</td> <td width="28%" align="center" valign="middle"> <img src="./assets/terminal.gif" width="170px" alt="Terminal"> </td> </tr> </table>
 
 ---
 
 # PURPOSE
 
-Cyber Notes — Juniors Edition: Advanced was created as the second specialised edition of the Cyber Notes collection.
+Cyber Notes — Juniors Edition: Advanced is the second specialised edition of the Cyber Notes collection.
 
 While the **Fundamentals** edition established the general cybersecurity knowledge required to understand computers, networks, operating systems, web technologies, and security principles, this edition moves into the practical discipline of **penetration testing**.
 
 The focus is on understanding how a penetration tester approaches a target: identifying the attack surface, performing reconnaissance, enumerating services, discovering vulnerabilities, exploiting weaknesses, obtaining access, escalating privileges, and performing post-exploitation activities.
 
-The objective is not simply to learn how to operate offensive-security tools. Each technique should be understood in terms of **why it works, what conditions make it possible, how it can be detected, and how it fits into a broader penetration-testing methodology**.
+The objective is not simply to learn how to operate offensive-security tools. Each technique should be understood in terms of **why it works, what conditions make it possible, and how it fits into a broader penetration-testing methodology**.
 
 ---
+
+<div align="center"> <img src="./assets/skull.gif" width="120px" alt="Skull"> </div>
 
 # SECURITY FOCUS
 
@@ -76,13 +59,15 @@ The objective is not simply to learn how to operate offensive-security tools. Ea
 │                        EXPLOIT IT · DOCUMENT IT              │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
-````
+```
 
 The vault has a deliberate **offensive-security focus**. Defensive concepts may appear when they are necessary to understand an attack, vulnerability, or security mechanism, but the primary objective is developing practical penetration-testing capability.
 
 ---
 
 # WHAT'S INSIDE
+
+<table> <tr> <td width="50%" valign="top">
 
 ### PENTESTING CORE
 
@@ -120,7 +105,11 @@ Password attacks, password cracking, hashes, credential discovery, credential re
 
 Active Directory from an offensive perspective, including enumeration, LDAP, Kerberos, NTLM, SMB, GPOs, and domain privilege escalation.
 
+</td> <td width="50%" align="center" valign="middle"> <img src="./assets/recon.gif" width="100%" alt="Reconnaissance"> </td> </tr> </table>
+
 ---
+
+<table> <tr> <td width="50%" align="center" valign="middle"> <img src="./assets/network.gif" width="100%" alt="Network Pentesting"> </td> <td width="50%" valign="top">
 
 # RECONNAISSANCE
 
@@ -140,7 +129,11 @@ The section covers port scanning, service enumeration, banner grabbing, and prot
 
 The objective is to move from an unknown target to an accurate understanding of its reachable services and potential attack surface.
 
+</td> </tr> </table>
+
 ---
+
+<table> <tr> <td width="50%" valign="top">
 
 # WEB PENTESTING
 
@@ -159,6 +152,12 @@ Exploitation is the process of turning a discovered vulnerability into meaningfu
 This section covers vulnerability research, CVEs, public exploit databases, proof-of-concepts, payloads, shells, reverse shells, bind shells, and introductory exploit-development concepts.
 
 The objective is to understand the relationship between a vulnerability, its exploitation conditions, the payload used, and the resulting execution context.
+
+</td> <td width="50%" align="center" valign="middle"> <img src="./assets/web.gif" width="100%" alt="Web Pentesting">
+
+<br><br>
+
+<img src="./assets/exploit.gif" width="100%" alt="Exploitation"> </td> </tr> </table>
 
 ---
 
@@ -194,9 +193,9 @@ The objective is to understand how trust relationships, authentication protocols
 
 # POST-EXPLOITATION
 
-Obtaining initial access is only one stage of a penetration test.
+Post-exploitation covers the activities performed after obtaining initial access to a system.
 
-Post-exploitation covers the activities performed after compromising a system, including situational awareness, credential harvesting, lateral movement, persistence concepts, pivoting, and tunneling.
+This includes situational awareness, credential harvesting, lateral movement, persistence concepts, pivoting, and tunneling.
 
 The objective is to understand how a compromised host can provide access to additional information, privileges, systems, or network segments.
 
@@ -212,43 +211,26 @@ WEB SECURITY              Burp Suite · SQLMap
 PASSWORD ATTACKS          Hydra · John the Ripper
 EXPLOITATION              Metasploit · Meterpreter · Msfvenom
 NETWORKING                Netcat
-ACTIVE DIRECTORY          Impacket
+PRIVILEGE ESCALATION      LinPEAS · WinPEAS · GTFOBins · Living off the Land
+POST-EXPLOITATION         Mimikatz · BloodHound · Empire
 ```
 
-Tool documentation is intentionally separated from quick-reference material.
+Practice environments and labs:
 
-The objective is to understand **what a tool does, why it is useful, how it fits into a penetration-testing workflow, and what assumptions or limitations affect its use**.
-
-Commands and syntax are maintained separately in the `12-Cheatsheets` section.
-
----
-
-# KNOWLEDGE ORGANIZATION
-
-Cyber Notes separates permanent technical knowledge, learning progress, practical walkthroughs, and quick-reference material.
-
-|Area|Purpose|
-|---|---|
-|`00-Resources`|Books, methodologies, glossaries and external resources.|
-|`01-Pentesting`|Core penetration-testing methodology and concepts.|
-|`02-Reconnaissance`|Reconnaissance, OSINT and attack-surface discovery.|
-|`03-Network-Pentesting`|Network enumeration and protocol-focused techniques.|
-|`04-Web-Pentesting`|Web application penetration-testing concepts.|
-|`05-Exploitation`|Vulnerability research, exploitation and payload concepts.|
-|`06-Privilege-Escalation`|Linux and Windows privilege-escalation techniques.|
-|`07-Credentials`|Credential discovery, password attacks and authentication weaknesses.|
-|`08-Active-Directory`|Offensive Active Directory knowledge.|
-|`09-Post-Exploitation`|Activities performed after obtaining initial access.|
-|`10-Tools`|Documentation for penetration-testing tools.|
-|`11-Walkthroughs`|Practical room, machine and challenge walkthroughs.|
-|`12-Cheatsheets`|Fast references for techniques, commands and tools.|
-|`13-Learning`|TryHackMe learning paths and progress.|
-
-The organization follows an **evergreen / Zettelkasten-inspired approach**. Permanent knowledge should remain reusable independently of the platform or room where it was learned.
+```text
+TRYHACKME                 Structured learning path (Jr Pentester)
+HACKTHEBOX                Realistic penetration-testing scenarios
+PROVING GROUNDS           Intermediate to advanced challenges
+VULNHUB                   Community-driven vulnerable machines
+```
 
 ---
 
-# PENETRATION TESTING WORKFLOW
+<div align="center"> <img src="./assets/terminal.gif" width="120px" alt="Terminal"> </div>
+
+# THE PENTESTING WORKFLOW
+
+The penetration-testing process is fundamentally iterative. The following represents a typical workflow:
 
 ```text
 RECONNAISSANCE
@@ -431,6 +413,8 @@ Cyber Notes is intentionally maintained as a living knowledge base. Existing not
 
 ---
 
+<div align="center"> <img src="./assets/skull.gif" width="100px" alt="Skull Icon"> </div>
+
 # AUTHOR
 
 `RODRIGO TRIPA`
@@ -459,8 +443,12 @@ Technical information may become outdated or contain mistakes. Important details
 
 ---
 
+<div align="center">
+
 `CYBER NOTES v0.1`
 
 `JUNIORS EDITION · ADVANCED`
 
 **Created by Rodrigo Tripa**
+
+</div>
