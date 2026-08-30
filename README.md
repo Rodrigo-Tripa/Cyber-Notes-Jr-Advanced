@@ -413,15 +413,23 @@ Cyber Notes is intentionally maintained as a living knowledge base. Existing not
 
 ---
 
-<div align="center"> <img src="./assets/skull.gif" width="100px" alt="Skull Icon"> </div>
-
 # AUTHOR
+
+<div align="center">
+
+<img src="./assets/skull.gif" width="90px" alt="Matrix decoration">
+
+<br>
 
 `RODRIGO TRIPA`
 
-**PENETRATION TESTING · OFFENSIVE SECURITY · LINUX**
+**CYBERSECURITY · OFFENSIVE SECURITY · LINUX**
 
-_Enumerate. Understand. Exploit. Learn._
+<br>
+
+*Understand systems. Study security. Keep building.*
+
+</div>
 
 ---
 
@@ -429,25 +437,31 @@ _Enumerate. Understand. Exploit. Learn._
 
 This project is distributed under the **MIT License**.
 
-See `LICENSE` for the full license text.
+See [`LICENSE`](./LICENSE) for the full license text.
 
 ---
 
 # DISCLAIMER
 
-Cyber Notes is an educational knowledge base created for legitimate cybersecurity learning, research, and authorised security testing.
+Cyber Notes is an educational knowledge base created for legitimate cybersecurity learning, research and experimentation.
 
 Security techniques and tools documented here should only be used against systems and environments where you have explicit authorization.
 
-Technical information may become outdated or contain mistakes. Important details should always be verified against current official documentation and authoritative technical sources.
+Technical information may become outdated or contain mistakes. Important details should always be verified against current official documentation and other authoritative sources.
 
 ---
 
 <div align="center">
 
-`CYBER NOTES v0.1`
+<img src="./assets/terminal.gif" width="80px" alt="Cyber Notes">
 
-`JUNIORS EDITION · ADVANCED`
+<br>
+
+`CYBER NOTES v1.0`
+
+`JUNIORS EDITION · FUNDAMENTALS`
+
+<br>
 
 **Created by Rodrigo Tripa**
 
