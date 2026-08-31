@@ -103,6 +103,31 @@ Active Directory from an offensive perspective, including enumeration, LDAP, Ker
 
 ---
 
+## CONTENT MODULES
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" align="center">
+<img src="./assets/Web-Pentesting.png" alt="Web Pentesting" width="100%">
+<br><strong>WEB PENTESTING</strong>
+</td>
+<td width="33%" align="center">
+<img src="./assets/Credential.png" alt="Credentials" width="100%">
+<br><strong>CREDENTIALS</strong>
+</td>
+<td width="33%" align="center">
+<img src="./assets/Active_Directory.png" alt="Active Directory" width="100%">
+<br><strong>ACTIVE DIRECTORY</strong>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
 # RECONNAISSANCE
 
 Reconnaissance is the first major stage of the penetration-testing workflow.
