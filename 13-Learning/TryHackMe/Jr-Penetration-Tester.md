@@ -18,7 +18,7 @@ This module introduces the fundamental concepts of penetration testing through g
 
 It covers the penetration testing process from reconnaissance through exploitation using both a web application and vulnerable infrastructure. The module also introduces the **Cyber Kill Chain** and several **penetration testing frameworks**, providing the foundation for understanding how real-world penetration tests are structured.
 
-[TryHackMe — Penetration Testing Foundations](https://tryhackme.com/module/penetration-testing-foundations2)
+[TryHackMe — Penetration Testing Foundations](https://tryhackme.com/module/penetration-testing-foundations)
 
 ## Guided Pentest: Web
 
@@ -79,3 +79,62 @@ This room introduces penetration testing frameworks and explains how they provid
 The room introduces several major frameworks and methodologies, including **OSSTMM**, **OWASP Web Security Testing Guide (WSTG)**, **NIST SP 800-115**, **PTES**, and **ISSAF**. It also introduces **MITRE ATT&CK** as a complementary knowledge base for mapping adversary tactics and techniques, alongside other frameworks such as WASC, CSA Cloud Controls Matrix, OWASP MASTG, PCI DSS Penetration Testing Guidelines, and CBEST.
 
 The final task provides a practical exercise where different testing scenarios are presented and the appropriate framework must be selected for each situation. This reinforces the main concept of the room: **the most suitable penetration testing framework depends on the type, scope, and objectives of the engagement**.
+
+---
+# 2. Reconnaissance
+
+This module introduces the reconnaissance phase of a penetration test, focusing on how information about a target can be collected, analysed, and used to build an initial understanding of its infrastructure and attack surface.
+
+It covers both **passive and active reconnaissance**, introducing techniques and tools such as WHOIS, DNS queries, ping, traceroute, telnet, and web browsers. The module focuses on understanding the difference between gathering information without directly interacting with a target and actively probing systems to learn more about their network and services.
+
+The knowledge gained throughout this module provides the foundation for moving from initial information gathering into **enumeration**, helping to identify hosts, services, technologies, and other areas that may require further investigation.
+
+[TryHackMe — Reconnaissance](https://tryhackme.com/module/network-reconnaissance)
+
+## Passive Reconnaissance
+
+[TryHackMe — Passive Reconnaissance](https://tryhackme.com/room/passiverecon)
+
+### Content
+
+This room introduces the fundamentals of passive reconnaissance and how publicly available information can be used to build an initial understanding of a target without directly interacting with its systems.
+
+It covers essential reconnaissance tools such as **WHOIS**, **nslookup**, and **dig**, demonstrating how they can be used to gather information about domain registration, DNS records, nameservers, and other publicly exposed infrastructure.
+
+The room highlights the importance of gathering information before moving into more active testing. By understanding the target's publicly available information first, a penetration tester can build an initial attack surface and use these findings to guide further reconnaissance and enumeration.
+
+## Active Reconnaissance
+
+[TryHackMe — Active Reconnaissance](https://tryhackme.com/room/activerecon)
+
+### Content
+
+This room introduces active reconnaissance, focusing on how penetration testers interact directly with a target to gather information about its systems, network, and services. It builds on the concepts introduced in passive reconnaissance and demonstrates how direct interaction can provide information that is not available through public sources alone.
+
+The room covers practical tools and techniques including **ping**, **traceroute**, **telnet**, and web browsers. These tools are used to determine whether hosts are reachable, understand network paths, interact with services, and inspect how web servers and applications respond to requests.
+
+The room demonstrates how the information collected through active reconnaissance can be interpreted and used to guide the next stages of a penetration test. It reinforces the idea that reconnaissance is not simply about collecting information, but about understanding what each observation tells us about the target and its potential attack surface.
+
+## Protocols and Servers
+
+[TryHackMe — Protocols and Servers](https://tryhackme.com/room/protocolsandservers)
+
+### Content
+
+This room introduces the fundamental network protocols and services commonly encountered during penetration testing. It focuses on understanding how different protocols operate, what services they provide, and how they can expose useful information about a target system.
+
+It covers common protocols and services such as **FTP**, **SSH**, **SMTP**, **DNS**, **HTTP**, and **SMB**, explaining their purpose, how clients and servers communicate, and the role that ports play in identifying accessible services. Understanding these protocols is essential for interpreting the results of network reconnaissance and service enumeration.
+
+The room also demonstrates how knowledge of protocols and server behaviour can be applied during a penetration test. By understanding what a service is designed to do and how it normally communicates, a penetration tester can identify interesting functionality, recognise potential weaknesses, and determine which services require further enumeration or testing.
+
+## Protocols and Servers 2
+
+[TryHackMe — Protocols and Servers 2](https://tryhackme.com/room/protocolsandservers2)
+
+### Content
+
+This room builds on the fundamentals of network protocols and services by focusing on how common server technologies operate and how they can be investigated during a penetration test.
+
+It covers practical interaction with network services and introduces techniques for communicating with servers, retrieving information, and understanding how different protocols respond to client requests. The room reinforces the importance of ports, services, and protocol behaviour when performing network enumeration.
+
+The knowledge gained throughout the room helps penetration testers move from simply identifying an open service to understanding what that service actually provides. This allows the information gathered during enumeration to be used more effectively when identifying potential attack vectors and deciding which services require further investigation.
