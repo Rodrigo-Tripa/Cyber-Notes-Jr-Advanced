@@ -360,7 +360,7 @@
 
 ## Tools
 
-- [[Nmap-Cheat]]
+- [[Cyber-Notes-Jr-Advanced/12-Cheatsheets/Tools/Nmap/Nmap-Cheat]]
     
 - [[Gobuster-Cheat]]
     
